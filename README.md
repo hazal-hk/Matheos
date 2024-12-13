@@ -28,7 +28,8 @@ AC (All Clear): A button to reset the input and result displays.
 Responsive Design: Button placement and sizing adapt seamlessly for easy usability.
 
 
-Now I will tell you all about the code I wrote.
+
+*Now I will tell you all about the code I wrote.*
 
 Firstly, I created the main tkinter window
 

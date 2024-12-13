@@ -1,19 +1,15 @@
 from tkinter import *
 import math
 
-# Create the main tkinter window
 root = Tk()
 root.title("CALCULATOR")
 
-# State variables
 expression = StringVar()
 result = StringVar()
 
-# Display areas
 Label(root, font=('Times', 25, 'bold'), textvariable=expression, height=2).grid(columnspan=4, ipadx=120)
 Label(root, font=('Times', 25, 'bold'), textvariable=result, height=2).grid(columnspan=4, ipadx=120)
 
-# Button click handler
 def onButtonClick(entry):
     if entry == "AC":
         expression.set("")
@@ -22,7 +18,7 @@ def onButtonClick(entry):
         try:
             res = eval(expression.get())
             result.set(res)
-            expression.set(str(res))  # To allow further calculations
+            expression.set(str(res))  
         except:
             result.set("Error")
             expression.set("")
@@ -37,7 +33,6 @@ def onButtonClick(entry):
     else:
         expression.set(expression.get() + str(entry))
 
-# Button labels and grid placement
 buttons = [
     ("AC", "sqrt", "%", "/"),
     ("7", "8", "9", "*"),
@@ -46,12 +41,10 @@ buttons = [
     ("0", ".", "=", None)
 ]
 
-# Create buttons dynamically
 for i, row in enumerate(buttons):
     for j, text in enumerate(row):
         if text:
             Button(root, text=text, font=('Times', 15, 'bold'), padx=16, pady=16, height=2, width=9,
                    command=lambda t=text: onButtonClick(t)).grid(row=i + 3, column=j, sticky=E)
 
-# Run the tkinter main loop
 root.mainloop()

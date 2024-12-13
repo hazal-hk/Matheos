@@ -7,11 +7,13 @@ Now I will tell you all about the code I wrote.
 Firstly, I created the main tkinter window
 
 root = Tk()
+
 root.title("CALCULATOR")
 
 These are state variables.
 
 expression = StringVar()
+
 result = StringVar()
 
 This is for display.

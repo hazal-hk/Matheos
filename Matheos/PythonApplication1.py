@@ -2,7 +2,7 @@ from tkinter import *
 import math
 
 root = Tk()
-root.title("MATHEOS")
+root.title("MATHEOS by hazal-hk")
 
 expression = StringVar()
 result = StringVar()

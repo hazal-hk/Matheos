@@ -6,15 +6,25 @@ This is a calculator code written by me and this is my calculator's screen.
 This project is a graphical calculator application built using the Tkinter library in Python. The calculator provides a user-friendly interface to perform basic arithmetic operations, as well as additional functions like square root and percentage calculations.
 
 Features:
+
 Basic Operations: Addition, subtraction, multiplication, and division.
+
 Advanced Functions:
+
 Square Root: Calculates the square root of the entered number.
+
 Percentage: Easily computes percentages.
+
 Real-Time Display:
+
 An input display area for the user to type or click buttons to form mathematical expressions.
+
 A result display area to show the evaluated result or error messages in case of invalid input.
+
 Error Handling: The application provides error feedback for invalid inputs or operations, such as dividing by zero or incorrect syntax.
+
 AC (All Clear): A button to reset the input and result displays.
+
 Responsive Design: Button placement and sizing adapt seamlessly for easy usability.
 
 

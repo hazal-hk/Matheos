@@ -1,6 +1,7 @@
 This is a calculator code written by me and this is my calculator's screen.
 
-<img width="442" alt="Ekran görüntüsü 2024-12-13 212646" src="https://github.com/user-attachments/assets/6aae7e23-a7f3-4660-8ac9-790dc400187d" />
+<img width="442" alt="Ekran görüntüsü 2024-12-13 220038" src="https://github.com/user-attachments/assets/43cdf32e-beb5-46f3-b91b-b1d48af4fd01" />
+
 
 Now I will tell you all about the code I wrote.
 

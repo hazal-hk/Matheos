@@ -129,10 +129,11 @@ Then I created the buttons dynamically.
                    command=lambda t=text: onButtonClick(t)).grid(row=i + 3, column=j, sticky=E)
 
 
-That's all. Thank you.
                    
 
 Finally, we should run the tkinter main loop.
 
 
 root.mainloop()
+
+That's all. Thank you.
